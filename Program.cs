@@ -1,4 +1,9 @@
+using calservice.Interfaces;
+using calservice.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+// Register the calculator service with transient scope
+builder.Services.AddTransient<ICalculatorServices, CalculatorService>();
 
 // Add services to the container.
 
