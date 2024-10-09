@@ -13,7 +13,7 @@ namespace calservice.Services
         public double Divide(double num1, double num2)
         {
             if (num2 == 0)
-                throw new DivideByZeroException("Division by zero is not allowed.");
+                throw new DivideByZeroException("Division by zero is not allowed u know this ?why keep trying ?.");
             return num1 / num2;
         }
     }
